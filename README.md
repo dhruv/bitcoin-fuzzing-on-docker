@@ -1,4 +1,4 @@
-# bitcoin-fuzzing-on-mac
+# bitcoin-fuzzing-on-docker
 
 I use macOS for by Bitcoin Core development. I've found fuzzing to be hard to run on mac. This repo contains a simple set of scripts so you don't have to constantly fiddle with docker.
 
