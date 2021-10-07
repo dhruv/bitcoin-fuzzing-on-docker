@@ -27,6 +27,8 @@ Steps:
 You can set a breakpoint in lldb using `br set -f <file> -l <line> -i <ignore_count>`
 You can see how often that breakpoint is hit using `br l`
 
+NOTE: you only need to use the file name like `p2p_transport_serialization.cpp` and NOT the fully qualified relative file name like `src/text/fuzz/p2p_transport-serialization.cpp`
+
 #### To build
 Since `./run_container.sh` allocated 3 CPUs, `make -j 3` seems to work well.
 
